@@ -8,9 +8,11 @@ int main(void)
 {
     int minutes;
     int bottles;
-
-    printf("Minutes: \n");
-    minutes = get_int();
+    //Prompt user for a positive number
+    do
+    {
+        minutes = get_int("Minutes: ");
+    } while(minutes <= 0);
 
     bottles = minutes * 12;
 
