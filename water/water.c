@@ -8,11 +8,13 @@ int main(void)
 {
     int minutes;
     int bottles;
+
     //Prompt user for a positive number
     do
     {
         minutes = get_int("Minutes: ");
-    } while(minutes <= 0);
+    }
+    while (minutes <= 0);
 
     bottles = minutes * 12;
 
