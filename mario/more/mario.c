@@ -38,6 +38,10 @@ int main(void)
         {
             printf("#");
         }
-        printf("\n");
+        printf("\n"); //this is the only line that doesn't specify its purpose but code is still readable -->GS
     }
 }
+
+// the comments throughout the code are helpful and the variable names assigned are also useful in determining what each portion does
+// the style and formatting is perfect to a T
+// the code performs exactly as expected -->GS

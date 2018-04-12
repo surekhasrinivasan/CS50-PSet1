@@ -43,3 +43,7 @@ int main(void)
     }
     printf("%i\n", coin_count);
 }
+
+// The code here is functional and works for its intended purpose
+// Like in class today, the only way to make it more efficient would be to use the modulo division method
+// Very readable and the comments here and helpful, expecially the one about the conversion from dollar to cents -->GS

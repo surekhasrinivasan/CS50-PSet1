@@ -14,9 +14,13 @@ int main(void)
     {
         minutes = get_int("Minutes: ");
     }
-    while (minutes <= 0);
+    while (minutes <= 0); //maybe specify what the while loop does in a comment --> GS
 
     bottles = minutes * 12;
 
     printf("Bottles: %i\n", bottles);
 }
+
+// other than my one comment above, this code is readable and performs well.
+// The final change I would recommend would be to printf() a more specific message like "Bottled used by your shower."
+// This was not required however, but might look better as an output. -->GS
